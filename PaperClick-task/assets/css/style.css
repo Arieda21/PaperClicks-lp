@@ -1,0 +1,211 @@
+/* CSS Document */
+body{
+	
+}
+header {
+	padding: 26px;
+}
+button {
+    background: #007560;
+    border-radius: 15px !important;
+    padding: 17px 52px;
+	color: #fff;
+	border: none;
+	gap: 10px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px !important;
+	line-height: 30px;
+}
+p{
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 28px;
+	color: #383838;
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+}
+button.main-btn {
+    background: #007560;
+    border-radius: 20px !important;
+    padding: 17px 52px;
+    border: 10px solid #c2d3b0 !important;
+}
+video{
+	border-radius: 20px;
+}
+.hamburger_menu{
+	text-align: right;
+	font-size: 24px;
+}
+.hamburger_menu ul{
+	margin: auto 0px;
+}
+.hamburger_menu li{
+	display: inline;
+}
+.section_1{
+	background: #F3EBC4 url("../../uploads/images/homepage/dog-paws-bg1.png") no-repeat center;
+	background-size: contain;
+	padding: 30px 40px;
+}
+/* margin: auto !important; duhet pare nese eshte ok edhe per seksionet e tjera jo vetem per header */
+.container{
+	max-width: 1400px !important;
+	margin: auto !important;
+}
+.heading{
+	text-align: left;
+	font-style: normal;
+	font-weight: 800;
+	color: #000000;
+}
+.heading h1{
+	font-family: 'Inter';
+	text-align: center;
+	margin: 50px auto;
+	font-size: 56px;
+	line-height: 64px;
+}
+.heading h2{
+	font-family: 'Inter';
+	text-align: left;
+	margin-bottom: 50px;
+	font-size: 56px;
+	line-height: 64px;
+}
+.row {
+    --bs-gutter-x: 0px !important;
+}
+.row .center-img{
+    text-align: center;
+}
+.review-top{
+	padding-left: 60px;
+}
+.margin-top-60{
+	margin-top: 60px;
+}
+.review-bottom{
+	padding-top: 230px;
+}
+.btn-border{
+	padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #00756033;
+	display: inline-block;
+}
+
+/*
+Second section 
+*/
+.section_2{
+	padding: 150px 0px 100px;
+}
+button.outlined-btn{
+	color: #007560;
+	background: #FFFFFF;
+	border: 1px solid #007560;
+	border-radius: 15px;
+}
+.d-flex-wrap{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.margin-40-0-75{
+	margin: 40px 0px 75px;
+}
+.margin-top-150{
+	margin-top: 150px !important;
+}
+.left-padding-120{
+	padding-left: 120px !important;
+}
+.right-padding-120{
+	padding-right: 120px;
+}
+.bold-text{
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 34px
+}
+.d-flex-sides{
+	display: flex;
+    justify-content: space-between;
+}
+.progress {
+	margin: 20px 0px;
+}
+/* Section 3 */
+.section_3{
+	background: #F3EBC4 url("../../uploads/images/homepage/dog-paws-bg2.png") no-repeat center;
+	background-size: contain;
+	padding: 150px 0px;
+}
+.p-26-lato{
+	margin-top: 24px;
+	text-align: center;
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 34px;
+}
+.section_4{
+	padding: 100px 0px;
+}
+/* Section 5 */
+.section_5{
+	padding: 100px 0px;
+}
+.round-border{
+	align-content: center;
+	width: 1400px;
+	height: 552px;
+	left: 260px;
+	top: 5024px;
+	background: #FFFFFF;
+	border: 4px solid #F3EBC4;
+	border-radius: 276px;
+	padding: 56px;
+}
+.center-btn {
+    text-align: center;
+    padding-top: 80px;
+}
+/* Footer  */
+footer{
+	background:#F3EBC4;
+	padding: 60px 0px;
+}
+.footer-menu{
+	margin: 0 auto;
+	max-width: 500px;
+	padding: 30px 0 0;
+}
+.footer-menu li{
+	display: inline;
+	margin-right: 35px;	
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 32px;
+}
+
+.footer-menu li a{
+	color: #000;
+	text-decoration: none;
+}
+.social-icons a{
+	color: #000;
+	font-size: 32px;
+	padding: 32px;
+}
